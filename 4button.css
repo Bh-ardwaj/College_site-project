@@ -1,0 +1,52 @@
+.button {
+    display: flex;
+    padding: 20px 30px;
+    background-color: rgb(25, 23, 36);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    width: 300px;
+    margin-right: 800px;
+    margin-left: 100px;
+    display: center;
+    align-items: center;
+    justify-content: center;
+     /* grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;  
+     */
+     transition: width 3s;
+    
+  }
+ button:hover{
+  width: 300px;
+ }
+.border{
+    border-top: 10rem solid #2f3943;
+}
+.image{
+     
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+        border-radius: 100px;
+        
+      
+}
+.image2
+{
+  position:absolute;
+  top: 8px;
+  right: 16px;
+  padding: 20px;
+   
+  overflow: hidden;
+}
+
+
+.liabimg{
+  border-radius: 100%;
+  width: 600px;
+}
+
